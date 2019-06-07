@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    display: grid;
+    grid-template-areas: 'navbar navbar navbar navbar'
+                         'header header header header'
+                         'section section section section'
+                         'aside aside aside aside'
+                         'div div div div' 
+                         'footer footer footer footer';
+    grid-template-rows: 10px 600px;
+}
+
+nav{
+    grid-area: navbar;
+    background-color: rgb(64, 218, 64);
+}
+
+header{
+    grid-area: header;
+    background-image: url(img/banner.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+header h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+span{
+    color: rgb(64, 218, 64);
+}
+
+header p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.iconenav img{
+    width: 40px;
+    height: 40px;
+}
+
+.imghand{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.navbar{
+    padding: 24%;
+}
