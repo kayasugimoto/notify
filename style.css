@@ -10,10 +10,14 @@ body{
     grid-template-rows: 10px 600px 300px 400px 400px 150px;
 }
 
+/* navbar */
+
 nav{
     grid-area: navbar;
     background-color: rgb(64, 218, 64);
 }
+
+/* header */
 
 header{
     grid-area: header;
@@ -26,7 +30,7 @@ header{
 header h1{
     font-family: 'Pacifico', cursive;
     color: white;
-    font-size: 70px;
+    font-size: 45pt;
     font-weight: 100;
 }
 
@@ -35,26 +39,52 @@ span{
 }
 
 header p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 16pt;
+}
+
+.iconenav{
+    display: flex;
+    width: 180px;
+    height: 100px;
+    justify-content: space-between;
 }
 
 .iconenav input{
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     opacity: 0.8;
 }
 
 .iconenav input:hover{
-    opacity: 100;
+    opacity: 500;
+}
+
+.navicone{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.5;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navicone:hover{
+    background-color: rgb(64, 218, 64);
+    opacity: 500;
 }
 
 .imghand{
     display: flex;
     align-items: flex-end;
+    justify-content: center;
     height: 100%;
 }
+
+/* section */
 
 section{
     grid-area: section;
@@ -67,7 +97,10 @@ section{
 .texto{
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
+
+/* aside */
 
 aside{
     grid-area: aside;
@@ -78,6 +111,8 @@ aside{
     grid-area: div;
     background-color: white;
 }
+
+/* footer */
 
 footer{
     grid-area: footer;
