@@ -7,7 +7,7 @@ body{
                          'aside aside aside aside'
                          'div div div div' 
                          'footer footer footer footer';
-    grid-template-rows: 10px 600px;
+    grid-template-rows: 10px 600px 300px 400px 400px 150px;
 }
 
 nav{
@@ -21,7 +21,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: space-around;
 }
 
 header h1{
@@ -41,9 +40,14 @@ header p{
     font-size: 20px;
 }
 
-.iconenav img{
+.iconenav input{
     width: 40px;
     height: 40px;
+    opacity: 0.8;
+}
+
+.iconenav input:hover{
+    opacity: 100;
 }
 
 .imghand{
@@ -52,6 +56,30 @@ header p{
     height: 100%;
 }
 
-.navbar{
-    padding: 24%;
+section{
+    grid-area: section;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.texto{
+    display: flex;
+    align-items: center;
+}
+
+aside{
+    grid-area: aside;
+    background-color: rgba(161, 161, 161, 0.582);
+}
+
+.pessoas{
+    grid-area: div;
+    background-color: white;
+}
+
+footer{
+    grid-area: footer;
+    background-color: rgba(161, 161, 161, 0.582);
 }
