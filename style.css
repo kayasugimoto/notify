@@ -44,6 +44,8 @@ header p{
     font-size: 16pt;
 }
 
+
+
 .iconenav{
     display: flex;
     width: 180px;
@@ -77,11 +79,20 @@ header p{
     opacity: 500;
 }
 
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: column;
+    width: 45%;
+}
+
 .imghand{
     display: flex;
     align-items: flex-end;
     justify-content: center;
     height: 100%;
+    width: 15%;
 }
 
 /* section */
@@ -92,6 +103,22 @@ section{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section img{
+    width: 30px;
+    height: 30px;
+}
+
+section h1{
+    font-weight: 600;
+}
+
+section p{
+    color: grey;
+    width: 350px;
+    text-align: center;
 }
 
 .texto{
@@ -100,11 +127,36 @@ section{
     flex-direction: column;
 }
 
+.iconsec{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(64, 218, 64);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* aside */
 
 aside{
     grid-area: aside;
     background-color: rgba(161, 161, 161, 0.582);
+    display: flex;
+    justify-content: space-around;
+}
+
+.aside1{
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 38%;
+}
+
+.aside2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pessoas{
