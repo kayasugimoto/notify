@@ -178,7 +178,7 @@ aside input{
 }
 
 .botaoEnvio{
-    width: 150%;
+    width: 200%;
     height: 105%;
     background-color: rgb(64, 218, 64);
     border: none;
@@ -192,11 +192,41 @@ aside input{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+/* div pessoas */
 
 .pessoas{
     grid-area: div;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+
+.textoTop{
+    width: 800px;
+}
+
+.textoPessoas{
+    color: grey;
+}
+
+.jane{
+    color:black;
+}
+
+.icones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pessoa1:hover{
+    cursor: pointer;
+    background-color: rgba(64, 218, 64, 0.466);
 }
 
 /* footer */
