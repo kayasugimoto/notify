@@ -32,6 +32,7 @@ header h1{
     color: white;
     font-size: 45pt;
     font-weight: 100;
+    margin-bottom: 10px; /*----------------------consertar---------------------------------*/
 }
 
 span{
@@ -44,7 +45,9 @@ header p{
     font-size: 16pt;
 }
 
-
+.seglinha{
+    margin-top: -15px; /*----------------------consertar---------------------------------*/
+}
 
 .iconenav{
     display: flex;
@@ -104,6 +107,7 @@ section{
     justify-content: space-around;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%; /*----------------------consertar---------------------------------*/
 }
 
 section img{
@@ -119,6 +123,7 @@ section p{
     color: grey;
     width: 350px;
     text-align: center;
+    margin-top: -10px;
 }
 
 .texto{
@@ -144,6 +149,8 @@ aside{
     background-color: rgba(161, 161, 161, 0.445);
     display: flex;
     justify-content: space-around;
+    padding-right: 10%; /*----------------------consertar---------------------------------*/
+    padding-left: 10%;
 }
 
 .aside1{
@@ -152,6 +159,7 @@ aside{
     flex-direction: column;
     width: 38%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2%; /*----------------------consertar---------------------------------*/
 }
 
 aside h1{
@@ -186,7 +194,9 @@ aside input{
     border-top-right-radius: 10px;
 }
 
-/* .input-class::-webkit-input-placeholder { /* Chrome, Safari, Opera */
+.botaoEnvio:hover{
+    cursor: pointer;
+}
 
 .aside2{
     display: flex;
@@ -205,6 +215,7 @@ aside input{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     align-items: center;
     text-align: center;
+    padding-top: 20px;
 }
 
 .textoTop{
@@ -213,20 +224,20 @@ aside input{
 
 .textoPessoas{
     color: grey;
+    font-style: italic;
 }
 
 .jane{
     color:black;
+    font-weight: 600;
 }
 
-.icones{
-    display: flex;
-    justify-content: space-around;
-}
-
-.pessoa1:hover{
+.pessoas img:hover{
     cursor: pointer;
-    background-color: rgba(64, 218, 64, 0.466);
+}
+
+.textoBot{
+    color: grey;
 }
 
 /* footer */
